@@ -3,7 +3,7 @@ import yfinance as yf
 from datetime import datetime
 
 class SmaCrossover(bt.Strategy):
-    params = (("short_period", 10), ("long_period", 30),)
+    params = (("short_period", 10), ("long_period", 200),)
 
     def __init__(self):
         self.sma_short = bt.indicators.SimpleMovingAverage(period=self.params.short_period)
