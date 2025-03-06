@@ -1,0 +1,648 @@
+2025-03-04 15:14:31,805 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-04 15:14:31,805 - INFO - Connected
+2025-03-04 15:14:31,812 - INFO - Logged on to server version 176
+2025-03-04 15:14:31,813 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-04 15:14:31,813 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-04 15:14:31,813 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-04 15:14:31,813 - INFO - API connection ready
+2025-03-04 15:14:31,813 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-04 15:14:31,813 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-04 15:14:31,813 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-04 15:14:31,813 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.9110029)
+2025-03-04 15:14:31,813 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.2588867)
+2025-03-04 15:14:31,814 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.34384365)
+2025-03-04 15:14:32,015 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=238.16999815, marketValue=-16671.9, averageCost=238.2588867, unrealizedPNL=6.22, realizedPNL=0.0, account='DUH945756')
+2025-03-04 15:14:32,015 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=117.91000365, marketValue=-8253.7, averageCost=111.34384365, unrealizedPNL=-459.63, realizedPNL=0.0, account='DUH945756')
+2025-03-04 15:14:32,015 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=279.6799927, marketValue=-19577.6, averageCost=264.9110029, unrealizedPNL=-1033.83, realizedPNL=0.0, account='DUH945756')
+2025-03-04 15:14:32,121 - INFO - execDetails Execution(execId='00012ec5.67c6cebb.01.01', time=datetime.datetime(2025, 3, 4, 15, 20, 56, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=237.77, permId=1560864187, clientId=1, orderId=14, liquidation=0, cumQty=10.0, avgPrice=237.77, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,121 - INFO - execDetails Execution(execId='00012ec5.67c6cebd.01.01', time=datetime.datetime(2025, 3, 4, 15, 20, 59, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=265.69, permId=1560864188, clientId=1, orderId=17, liquidation=0, cumQty=10.0, avgPrice=265.69, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,121 - INFO - execDetails Execution(execId='00012ec5.67c6ced1.01.01', time=datetime.datetime(2025, 3, 4, 15, 21, 29, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.87, permId=1560864189, clientId=1, orderId=20, liquidation=0, cumQty=10.0, avgPrice=111.87, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,121 - INFO - execDetails Execution(execId='00012ec5.67c6d095.01.01', time=datetime.datetime(2025, 3, 4, 15, 26, 12, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=237.86, permId=1560864190, clientId=1, orderId=27, liquidation=0, cumQty=10.0, avgPrice=237.86, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d0a2.01.01', time=datetime.datetime(2025, 3, 4, 15, 26, 15, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=265.58, permId=1560864191, clientId=1, orderId=30, liquidation=0, cumQty=10.0, avgPrice=265.58, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d0a3.01.01', time=datetime.datetime(2025, 3, 4, 15, 26, 19, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.52, permId=1560864192, clientId=1, orderId=33, liquidation=0, cumQty=10.0, avgPrice=111.52, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d393.01.01', time=datetime.datetime(2025, 3, 4, 15, 31, 27, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=238.94, permId=1560864193, clientId=1, orderId=40, liquidation=0, cumQty=10.0, avgPrice=238.94, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d39e.01.01', time=datetime.datetime(2025, 3, 4, 15, 31, 30, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=264.72, permId=1560864194, clientId=1, orderId=43, liquidation=0, cumQty=10.0, avgPrice=264.72, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d3d9.01.01', time=datetime.datetime(2025, 3, 4, 15, 31, 49, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=110.7, permId=1560864195, clientId=1, orderId=46, liquidation=0, cumQty=10.0, avgPrice=110.7, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d804.01.01', time=datetime.datetime(2025, 3, 4, 15, 36, 42, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=237.68, permId=1560864196, clientId=1, orderId=53, liquidation=0, cumQty=10.0, avgPrice=237.68, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d808.01.01', time=datetime.datetime(2025, 3, 4, 15, 36, 46, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=262.77, permId=1560864197, clientId=1, orderId=56, liquidation=0, cumQty=10.0, avgPrice=262.77, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d81d.01.01', time=datetime.datetime(2025, 3, 4, 15, 36, 59, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=110.65, permId=1560864198, clientId=1, orderId=59, liquidation=0, cumQty=10.0, avgPrice=110.65, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d95e.01.01', time=datetime.datetime(2025, 3, 4, 15, 41, 58, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=238.46, permId=1560864199, clientId=1, orderId=66, liquidation=0, cumQty=10.0, avgPrice=238.46, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d95f.01.01', time=datetime.datetime(2025, 3, 4, 15, 42, 1, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=264.11, permId=1560864200, clientId=1, orderId=69, liquidation=0, cumQty=10.0, avgPrice=264.11, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6d963.01.01', time=datetime.datetime(2025, 3, 4, 15, 42, 9, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.29, permId=1560864201, clientId=1, orderId=72, liquidation=0, cumQty=10.0, avgPrice=111.29, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6db05.01.01', time=datetime.datetime(2025, 3, 4, 15, 47, 13, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=238.79, permId=1560864202, clientId=1, orderId=79, liquidation=0, cumQty=10.0, avgPrice=238.79, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6db06.01.01', time=datetime.datetime(2025, 3, 4, 15, 47, 16, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=266.79, permId=1560864203, clientId=1, orderId=82, liquidation=0, cumQty=10.0, avgPrice=266.79, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6db25.01.01', time=datetime.datetime(2025, 3, 4, 15, 47, 29, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.96, permId=1560864204, clientId=1, orderId=85, liquidation=0, cumQty=10.0, avgPrice=111.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,122 - INFO - execDetails Execution(execId='00012ec5.67c6dd1e.01.01', time=datetime.datetime(2025, 3, 4, 15, 52, 28, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=239.06, permId=1560864206, clientId=1, orderId=92, liquidation=0, cumQty=10.0, avgPrice=239.06, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,123 - INFO - execDetails Execution(execId='00012ec5.67c6dd22.01.01', time=datetime.datetime(2025, 3, 4, 15, 52, 32, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=265.47, permId=1560864207, clientId=1, orderId=95, liquidation=0, cumQty=10.0, avgPrice=265.47, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:14:32,123 - INFO - execDetails Execution(execId='00012ec5.67c6dd4e.01.01', time=datetime.datetime(2025, 3, 4, 15, 52, 49, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=112.14, permId=1560864208, clientId=1, orderId=98, liquidation=0, cumQty=10.0, avgPrice=112.14, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6cebb.01.01', commission=1.06811, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6cebd.01.01', commission=1.075872, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6ced1.01.01', commission=1.03311, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d095.01.01', commission=1.068135, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d0a2.01.01', commission=1.075841, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d0a3.01.01', commission=1.033013, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d393.01.01', commission=1.068435, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d39e.01.01', commission=1.075602, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d3d9.01.01', commission=1.032785, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d804.01.01', commission=1.068085, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d808.01.01', commission=1.07506, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,123 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d81d.01.01', commission=1.032771, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d95e.01.01', commission=1.068302, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d95f.01.01', commission=1.075433, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d963.01.01', commission=1.032949, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6db05.01.01', commission=1.068394, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6db06.01.01', commission=1.076178, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6db25.01.01', commission=1.033135, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6dd1e.01.01', commission=1.068469, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6dd22.01.01', commission=1.075811, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6dd4e.01.01', commission=1.033185, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:14:32,124 - INFO - Synchronization complete
+2025-03-04 15:14:32,189 - INFO - AAPL - Fast SMA: 242.62, Slow SMA: 239.48, ATR: 5.04
+2025-03-04 15:14:32,219 - ERROR - Error 10168, reqId 102: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-04 15:14:34,192 - INFO - AAPL - Current price: nan
+2025-03-04 15:14:34,264 - INFO - NVDA - Fast SMA: 127.92, Slow SMA: 132.93, ATR: 6.85
+2025-03-04 15:14:34,294 - ERROR - Error 10168, reqId 104: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-04 15:14:36,270 - INFO - NVDA - Current price: nan
+2025-03-04 15:14:36,335 - INFO - TSLA - Fast SMA: 311.66, Slow SMA: 381.72, ATR: 18.44
+2025-03-04 15:14:36,364 - ERROR - Error 10168, reqId 106: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-04 15:14:38,336 - INFO - TSLA - Current price: nan
+2025-03-04 15:14:38,337 - INFO - Waiting 5 minutes for next check...
+2025-03-04 15:15:01,434 - INFO - Trading session terminated by user.
+2025-03-04 15:15:01,435 - INFO - Disconnecting from 127.0.0.1:7497, 507 B sent in 14 messages, 43.3 kB received in 467 messages, session time 29.6 s.
+2025-03-04 15:15:01,435 - INFO - Disconnecting
+2025-03-04 15:15:01,435 - INFO - Disconnected from IB.
+2025-03-04 15:15:02,496 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-04 15:15:02,496 - INFO - Connected
+2025-03-04 15:15:02,500 - INFO - Logged on to server version 176
+2025-03-04 15:15:02,505 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-04 15:15:02,505 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-04 15:15:02,505 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-04 15:15:02,505 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-04 15:15:02,505 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-04 15:15:02,505 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-04 15:15:02,505 - INFO - API connection ready
+2025-03-04 15:15:02,506 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.9110029)
+2025-03-04 15:15:02,506 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.2588867)
+2025-03-04 15:15:02,506 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.34384365)
+2025-03-04 15:15:02,707 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=238.16999815, marketValue=-16671.9, averageCost=238.2588867, unrealizedPNL=6.22, realizedPNL=0.0, account='DUH945756')
+2025-03-04 15:15:02,708 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=117.91000365, marketValue=-8253.7, averageCost=111.34384365, unrealizedPNL=-459.63, realizedPNL=0.0, account='DUH945756')
+2025-03-04 15:15:02,708 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=279.6799927, marketValue=-19577.6, averageCost=264.9110029, unrealizedPNL=-1033.83, realizedPNL=0.0, account='DUH945756')
+2025-03-04 15:15:02,813 - INFO - execDetails Execution(execId='00012ec5.67c6cebb.01.01', time=datetime.datetime(2025, 3, 4, 15, 20, 56, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=237.77, permId=1560864187, clientId=1, orderId=14, liquidation=0, cumQty=10.0, avgPrice=237.77, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,814 - INFO - execDetails Execution(execId='00012ec5.67c6cebd.01.01', time=datetime.datetime(2025, 3, 4, 15, 20, 59, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=265.69, permId=1560864188, clientId=1, orderId=17, liquidation=0, cumQty=10.0, avgPrice=265.69, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,814 - INFO - execDetails Execution(execId='00012ec5.67c6ced1.01.01', time=datetime.datetime(2025, 3, 4, 15, 21, 29, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.87, permId=1560864189, clientId=1, orderId=20, liquidation=0, cumQty=10.0, avgPrice=111.87, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,814 - INFO - execDetails Execution(execId='00012ec5.67c6d095.01.01', time=datetime.datetime(2025, 3, 4, 15, 26, 12, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=237.86, permId=1560864190, clientId=1, orderId=27, liquidation=0, cumQty=10.0, avgPrice=237.86, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,814 - INFO - execDetails Execution(execId='00012ec5.67c6d0a2.01.01', time=datetime.datetime(2025, 3, 4, 15, 26, 15, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=265.58, permId=1560864191, clientId=1, orderId=30, liquidation=0, cumQty=10.0, avgPrice=265.58, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,814 - INFO - execDetails Execution(execId='00012ec5.67c6d0a3.01.01', time=datetime.datetime(2025, 3, 4, 15, 26, 19, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.52, permId=1560864192, clientId=1, orderId=33, liquidation=0, cumQty=10.0, avgPrice=111.52, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,814 - INFO - execDetails Execution(execId='00012ec5.67c6d393.01.01', time=datetime.datetime(2025, 3, 4, 15, 31, 27, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=238.94, permId=1560864193, clientId=1, orderId=40, liquidation=0, cumQty=10.0, avgPrice=238.94, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d39e.01.01', time=datetime.datetime(2025, 3, 4, 15, 31, 30, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=264.72, permId=1560864194, clientId=1, orderId=43, liquidation=0, cumQty=10.0, avgPrice=264.72, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d3d9.01.01', time=datetime.datetime(2025, 3, 4, 15, 31, 49, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=110.7, permId=1560864195, clientId=1, orderId=46, liquidation=0, cumQty=10.0, avgPrice=110.7, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d804.01.01', time=datetime.datetime(2025, 3, 4, 15, 36, 42, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=237.68, permId=1560864196, clientId=1, orderId=53, liquidation=0, cumQty=10.0, avgPrice=237.68, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d808.01.01', time=datetime.datetime(2025, 3, 4, 15, 36, 46, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=262.77, permId=1560864197, clientId=1, orderId=56, liquidation=0, cumQty=10.0, avgPrice=262.77, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d81d.01.01', time=datetime.datetime(2025, 3, 4, 15, 36, 59, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=110.65, permId=1560864198, clientId=1, orderId=59, liquidation=0, cumQty=10.0, avgPrice=110.65, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d95e.01.01', time=datetime.datetime(2025, 3, 4, 15, 41, 58, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=238.46, permId=1560864199, clientId=1, orderId=66, liquidation=0, cumQty=10.0, avgPrice=238.46, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d95f.01.01', time=datetime.datetime(2025, 3, 4, 15, 42, 1, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=264.11, permId=1560864200, clientId=1, orderId=69, liquidation=0, cumQty=10.0, avgPrice=264.11, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6d963.01.01', time=datetime.datetime(2025, 3, 4, 15, 42, 9, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.29, permId=1560864201, clientId=1, orderId=72, liquidation=0, cumQty=10.0, avgPrice=111.29, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6db05.01.01', time=datetime.datetime(2025, 3, 4, 15, 47, 13, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=238.79, permId=1560864202, clientId=1, orderId=79, liquidation=0, cumQty=10.0, avgPrice=238.79, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6db06.01.01', time=datetime.datetime(2025, 3, 4, 15, 47, 16, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=266.79, permId=1560864203, clientId=1, orderId=82, liquidation=0, cumQty=10.0, avgPrice=266.79, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6db25.01.01', time=datetime.datetime(2025, 3, 4, 15, 47, 29, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=111.96, permId=1560864204, clientId=1, orderId=85, liquidation=0, cumQty=10.0, avgPrice=111.96, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6dd1e.01.01', time=datetime.datetime(2025, 3, 4, 15, 52, 28, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=239.06, permId=1560864206, clientId=1, orderId=92, liquidation=0, cumQty=10.0, avgPrice=239.06, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6dd22.01.01', time=datetime.datetime(2025, 3, 4, 15, 52, 32, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NYSENAT', side='SLD', shares=10.0, price=265.47, permId=1560864207, clientId=1, orderId=95, liquidation=0, cumQty=10.0, avgPrice=265.47, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-03-04 15:15:02,815 - INFO - execDetails Execution(execId='00012ec5.67c6dd4e.01.01', time=datetime.datetime(2025, 3, 4, 15, 52, 49, tzinfo=datetime.timezone.utc), acctNumber='DUH945756', exchange='NASDAQ', side='SLD', shares=10.0, price=112.14, permId=1560864208, clientId=1, orderId=98, liquidation=0, cumQty=10.0, avgPrice=112.14, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6cebb.01.01', commission=1.06811, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6cebd.01.01', commission=1.075872, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6ced1.01.01', commission=1.03311, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d095.01.01', commission=1.068135, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d0a2.01.01', commission=1.075841, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d0a3.01.01', commission=1.033013, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d393.01.01', commission=1.068435, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d39e.01.01', commission=1.075602, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d3d9.01.01', commission=1.032785, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d804.01.01', commission=1.068085, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d808.01.01', commission=1.07506, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d81d.01.01', commission=1.032771, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d95e.01.01', commission=1.068302, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d95f.01.01', commission=1.075433, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6d963.01.01', commission=1.032949, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6db05.01.01', commission=1.068394, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6db06.01.01', commission=1.076178, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6db25.01.01', commission=1.033135, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6dd1e.01.01', commission=1.068469, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6dd22.01.01', commission=1.075811, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - commissionReport: CommissionReport(execId='00012ec5.67c6dd4e.01.01', commission=1.033185, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-03-04 15:15:02,816 - INFO - Synchronization complete
+2025-03-04 15:15:02,878 - INFO - AAPL - Fast SMA: 242.62, Slow SMA: 239.48, ATR: 5.04
+2025-03-04 15:15:03,152 - ERROR - Error 10168, reqId 102: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-04 15:15:04,880 - INFO - AAPL - Current price: nan
+2025-03-04 15:15:04,948 - INFO - NVDA - Fast SMA: 127.92, Slow SMA: 132.93, ATR: 6.85
+2025-03-04 15:15:04,978 - ERROR - Error 10168, reqId 104: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-04 15:15:06,949 - INFO - NVDA - Current price: nan
+2025-03-04 15:15:07,013 - INFO - TSLA - Fast SMA: 311.68, Slow SMA: 381.72, ATR: 18.44
+2025-03-04 15:15:07,042 - ERROR - Error 10168, reqId 106: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-04 15:15:09,015 - INFO - TSLA - Current price: nan
+2025-03-04 15:15:09,016 - INFO - Waiting 5 minutes for next check...
+2025-03-04 15:16:22,492 - INFO - Trading session terminated by user.
+2025-03-04 15:16:22,494 - INFO - Disconnecting from 127.0.0.1:7497, 507 B sent in 14 messages, 43.3 kB received in 467 messages, session time 80.0 s.
+2025-03-04 15:16:22,494 - INFO - Disconnecting
+2025-03-04 15:16:22,494 - INFO - Disconnected from IB.
+2025-03-05 09:56:47,291 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-05 09:56:47,292 - INFO - Connected
+2025-03-05 09:56:47,300 - INFO - Logged on to server version 176
+2025-03-05 09:56:47,301 - INFO - Warning 2110, reqId -1: Connectivity between Trader Workstation and server is broken. It will be restored automatically.
+2025-03-05 09:56:47,301 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 09:56:47,301 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 09:56:47,301 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 09:56:47,301 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 09:56:47,301 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 09:56:47,301 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 09:56:47,301 - INFO - API connection ready
+2025-03-05 09:56:47,302 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.9110029)
+2025-03-05 09:56:47,302 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.2588867)
+2025-03-05 09:56:47,302 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.34384365)
+2025-03-05 09:56:47,604 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=238.94999695, marketValue=-16726.5, averageCost=238.2588867, unrealizedPNL=-48.38, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:56:47,604 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=118.9300003, marketValue=-8325.1, averageCost=111.34384365, unrealizedPNL=-531.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:56:47,604 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=282.5, marketValue=-19775.0, averageCost=264.9110029, unrealizedPNL=-1231.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:56:51,303 - ERROR - open orders request timed out
+2025-03-05 09:56:51,304 - ERROR - completed orders request timed out
+2025-03-05 09:56:52,168 - ERROR - Error 1100, reqId -1: Connectivity between IBKR and Trader Workstation has been lost.
+2025-03-05 09:56:52,663 - INFO - Synchronization complete
+2025-03-05 09:56:52,745 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-05 09:56:52,745 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-05 09:56:52,745 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-05 09:56:52,746 - INFO - Warning 2108, reqId -1: Market data farm connection is inactive but should be available upon demand.usfarm.nj
+2025-03-05 09:56:52,747 - INFO - Warning 2108, reqId -1: Market data farm connection is inactive but should be available upon demand.usfuture
+2025-03-05 09:56:52,748 - INFO - Warning 2108, reqId -1: Market data farm connection is inactive but should be available upon demand.cashfarm
+2025-03-05 09:56:52,918 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=233.80000305, marketValue=-16366.0, averageCost=238.25888715, unrealizedPNL=312.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:56:52,918 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.9599991, marketValue=-8117.2, averageCost=111.3438443, unrealizedPNL=-323.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:56:52,918 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.6300049, marketValue=-18944.1, averageCost=264.91100285, unrealizedPNL=-400.33, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:56:53,506 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 09:56:53,677 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 09:56:53,914 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 09:56:53,987 - INFO - AAPL - Fast SMA: 241.30, Slow SMA: 239.16, ATR: 4.87
+2025-03-05 09:56:54,019 - ERROR - Error 10168, reqId 102: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 09:56:54,557 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 09:56:54,613 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 09:56:54,711 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 09:56:54,775 - ERROR - Error 1102, reqId -1: Connectivity between IBKR and Trader Workstation has been restored - data maintained. All data farms are connected: usfarm; ushmds; secdefil.
+2025-03-05 09:56:55,988 - INFO - AAPL - Current price: nan
+2025-03-05 09:56:56,156 - INFO - NVDA - Fast SMA: 125.48, Slow SMA: 132.64, ATR: 6.91
+2025-03-05 09:56:58,158 - INFO - NVDA - Current price: 114.95
+2025-03-05 09:56:58,249 - INFO - TSLA - Fast SMA: 302.06, Slow SMA: 378.21, ATR: 17.91
+2025-03-05 09:57:00,251 - INFO - TSLA - Current price: 270.40
+2025-03-05 09:57:00,251 - INFO - Waiting 5 minutes for next check...
+2025-03-05 09:57:56,820 - INFO - Trading session terminated by user.
+2025-03-05 09:57:56,821 - INFO - Disconnecting from 127.0.0.1:7497, 1.10 kB sent in 15 messages, 57.8 kB received in 1054 messages, session time 69.5 s.
+2025-03-05 09:57:56,821 - INFO - Disconnecting
+2025-03-05 09:57:56,821 - INFO - Disconnected from IB.
+2025-03-05 09:58:09,233 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-05 09:58:09,234 - INFO - Connected
+2025-03-05 09:58:09,239 - INFO - Logged on to server version 176
+2025-03-05 09:58:09,239 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 09:58:09,239 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 09:58:09,239 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 09:58:09,239 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 09:58:09,239 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 09:58:09,239 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 09:58:09,239 - INFO - API connection ready
+2025-03-05 09:58:09,240 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-05 09:58:09,240 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-05 09:58:09,240 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-05 09:58:09,542 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=233.8999939, marketValue=-16373.0, averageCost=238.25888715, unrealizedPNL=305.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:58:09,542 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.69000245, marketValue=-8168.3, averageCost=111.3438443, unrealizedPNL=-374.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:58:09,542 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=274.26000975, marketValue=-19198.2, averageCost=264.91100285, unrealizedPNL=-654.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 09:58:09,642 - INFO - Synchronization complete
+2025-03-05 09:58:09,704 - INFO - AAPL - Fast SMA: 241.29, Slow SMA: 239.15, ATR: 4.87
+2025-03-05 09:58:09,729 - ERROR - Error 10168, reqId 102: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 09:58:11,706 - INFO - AAPL - Current price: nan
+2025-03-05 09:58:11,767 - INFO - NVDA - Fast SMA: 125.45, Slow SMA: 132.64, ATR: 6.91
+2025-03-05 09:58:13,769 - INFO - NVDA - Current price: 115.45
+2025-03-05 09:58:13,826 - INFO - TSLA - Fast SMA: 302.23, Slow SMA: 378.24, ATR: 17.92
+2025-03-05 09:58:15,828 - INFO - TSLA - Current price: 270.79
+2025-03-05 09:58:15,828 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:03:15,866 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=233.80999755, marketValue=-16366.7, averageCost=238.25888715, unrealizedPNL=311.42, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:03:15,866 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.37999725, marketValue=-8146.6, averageCost=111.3438443, unrealizedPNL=-352.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:03:15,866 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=274.6199951, marketValue=-19223.4, averageCost=264.91100285, unrealizedPNL=-679.63, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:03:15,894 - INFO - AAPL - Fast SMA: 241.20, Slow SMA: 239.14, ATR: 4.91
+2025-03-05 10:03:15,920 - ERROR - Error 10168, reqId 108: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:03:17,895 - INFO - AAPL - Current price: nan
+2025-03-05 10:03:17,957 - INFO - NVDA - Fast SMA: 125.35, Slow SMA: 132.62, ATR: 6.91
+2025-03-05 10:03:19,958 - INFO - NVDA - Current price: 116.26
+2025-03-05 10:03:20,020 - INFO - TSLA - Fast SMA: 301.91, Slow SMA: 378.18, ATR: 17.97
+2025-03-05 10:03:22,022 - INFO - TSLA - Current price: 275.14
+2025-03-05 10:03:22,022 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:08:22,054 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.83000185, marketValue=-16298.1, averageCost=238.25888715, unrealizedPNL=380.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:08:22,055 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.84999845, marketValue=-8109.5, averageCost=111.3438443, unrealizedPNL=-315.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:08:22,055 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.54000855, marketValue=-19007.8, averageCost=264.91100285, unrealizedPNL=-464.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:08:22,096 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.58999635, marketValue=-16281.3, averageCost=238.25888715, unrealizedPNL=396.82, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:08:22,096 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.08000185, marketValue=-8125.6, averageCost=111.3438443, unrealizedPNL=-331.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:08:22,096 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.9700012, marketValue=-19037.9, averageCost=264.91100285, unrealizedPNL=-494.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:08:22,107 - INFO - AAPL - Fast SMA: 241.12, Slow SMA: 239.12, ATR: 4.96
+2025-03-05 10:08:22,132 - ERROR - Error 10168, reqId 114: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:08:24,108 - INFO - AAPL - Current price: nan
+2025-03-05 10:08:24,172 - INFO - NVDA - Fast SMA: 125.43, Slow SMA: 132.63, ATR: 6.91
+2025-03-05 10:08:26,173 - INFO - NVDA - Current price: 116.67
+2025-03-05 10:08:26,240 - INFO - TSLA - Fast SMA: 302.12, Slow SMA: 378.22, ATR: 17.97
+2025-03-05 10:08:28,242 - INFO - TSLA - Current price: 277.22
+2025-03-05 10:08:28,242 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:13:28,303 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.91999815, marketValue=-16234.4, averageCost=238.25888715, unrealizedPNL=443.72, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:13:28,305 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.51000215, marketValue=-8085.7, averageCost=111.3438443, unrealizedPNL=-291.63, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:13:28,305 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.6499939, marketValue=-19015.5, averageCost=264.91100285, unrealizedPNL=-471.73, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:13:28,354 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.5, marketValue=-16205.0, averageCost=238.25888715, unrealizedPNL=473.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:13:28,354 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.1800003, marketValue=-8062.6, averageCost=111.3438443, unrealizedPNL=-268.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:13:28,354 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.2200012, marketValue=-18915.4, averageCost=264.91100285, unrealizedPNL=-371.63, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:13:28,356 - INFO - AAPL - Fast SMA: 241.05, Slow SMA: 239.11, ATR: 5.04
+2025-03-05 10:13:28,383 - ERROR - Error 10168, reqId 120: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:13:30,358 - INFO - AAPL - Current price: nan
+2025-03-05 10:13:30,423 - INFO - NVDA - Fast SMA: 125.32, Slow SMA: 132.61, ATR: 6.94
+2025-03-05 10:13:32,424 - INFO - NVDA - Current price: 116.19
+2025-03-05 10:13:32,487 - INFO - TSLA - Fast SMA: 301.90, Slow SMA: 378.18, ATR: 17.97
+2025-03-05 10:13:34,489 - INFO - TSLA - Current price: 273.81
+2025-03-05 10:13:34,489 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:18:34,575 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.74412535, marketValue=-16292.09, averageCost=238.25888715, unrealizedPNL=386.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:18:34,577 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.76000215, marketValue=-8173.2, averageCost=111.3438443, unrealizedPNL=-379.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:18:34,577 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=276.01000975, marketValue=-19320.7, averageCost=264.91100285, unrealizedPNL=-776.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:18:34,621 - INFO - AAPL - Fast SMA: 241.15, Slow SMA: 239.13, ATR: 5.04
+2025-03-05 10:18:34,722 - ERROR - Error 10168, reqId 126: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:18:36,623 - INFO - AAPL - Current price: nan
+2025-03-05 10:18:36,685 - INFO - NVDA - Fast SMA: 125.44, Slow SMA: 132.63, ATR: 6.94
+2025-03-05 10:18:38,688 - INFO - NVDA - Current price: 115.32
+2025-03-05 10:18:38,752 - INFO - TSLA - Fast SMA: 302.38, Slow SMA: 378.27, ATR: 18.07
+2025-03-05 10:18:40,754 - INFO - TSLA - Current price: 271.13
+2025-03-05 10:18:40,754 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:23:40,793 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.19999695, marketValue=-16254.0, averageCost=238.25888715, unrealizedPNL=424.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:23:40,794 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.4700012, marketValue=-8152.9, averageCost=111.3438443, unrealizedPNL=-358.83, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:23:40,794 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=276.1000061, marketValue=-19327.0, averageCost=264.91100285, unrealizedPNL=-783.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:23:40,887 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.3699951, marketValue=-16265.9, averageCost=238.25888715, unrealizedPNL=412.22, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:23:40,888 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.55999755, marketValue=-8159.2, averageCost=111.3438443, unrealizedPNL=-365.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:23:40,888 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=276.83999635, marketValue=-19378.8, averageCost=264.91100285, unrealizedPNL=-835.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:23:40,921 - INFO - AAPL - Fast SMA: 241.13, Slow SMA: 239.12, ATR: 5.04
+2025-03-05 10:23:40,948 - ERROR - Error 10168, reqId 132: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:23:42,923 - INFO - AAPL - Current price: nan
+2025-03-05 10:23:43,030 - INFO - NVDA - Fast SMA: 125.45, Slow SMA: 132.64, ATR: 6.94
+2025-03-05 10:23:45,033 - INFO - NVDA - Current price: 115.63
+2025-03-05 10:23:45,128 - INFO - TSLA - Fast SMA: 302.52, Slow SMA: 378.30, ATR: 18.16
+2025-03-05 10:23:47,130 - INFO - TSLA - Current price: 272.22
+2025-03-05 10:23:47,130 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:28:47,222 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.22999575, marketValue=-16256.1, averageCost=238.25888715, unrealizedPNL=422.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:28:47,223 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.76000215, marketValue=-8173.2, averageCost=111.3438443, unrealizedPNL=-379.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:28:47,223 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=276.0700073, marketValue=-19324.9, averageCost=264.91100285, unrealizedPNL=-781.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:28:47,303 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.47999575, marketValue=-16273.6, averageCost=238.25888715, unrealizedPNL=404.52, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:28:47,303 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.2099991, marketValue=-8134.7, averageCost=111.3438443, unrealizedPNL=-340.63, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:28:47,303 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=273.8800049, marketValue=-19171.6, averageCost=264.91100285, unrealizedPNL=-627.83, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:28:47,306 - INFO - AAPL - Fast SMA: 241.15, Slow SMA: 239.13, ATR: 5.04
+2025-03-05 10:28:47,332 - ERROR - Error 10168, reqId 138: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:28:49,308 - INFO - AAPL - Current price: nan
+2025-03-05 10:28:49,371 - INFO - NVDA - Fast SMA: 125.41, Slow SMA: 132.63, ATR: 6.94
+2025-03-05 10:28:51,373 - INFO - NVDA - Current price: 115.94
+2025-03-05 10:28:51,436 - INFO - TSLA - Fast SMA: 302.20, Slow SMA: 378.23, ATR: 18.16
+2025-03-05 10:28:53,438 - INFO - TSLA - Current price: 270.78
+2025-03-05 10:28:53,439 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:34:29,871 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 10:34:29,871 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 10:34:29,871 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 10:34:29,871 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 10:34:29,872 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 10:34:29,872 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 10:34:29,886 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 10:34:29,886 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 10:34:29,886 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 10:34:29,886 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 10:34:29,886 - ERROR - Error 10089, reqId 128: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Error&BEST/STK/Top&BEST/STK/Top&BEST/STK/Top&BEST/STK/Top, contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 10:34:29,886 - ERROR - Error 10089, reqId 130: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Error&BEST/STK/Top&BEST/STK/Top&BEST/STK/Top&BEST/STK/Top, contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 10:34:29,886 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 10:34:29,886 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 10:34:29,887 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.97999575, marketValue=-16308.6, averageCost=238.25888715, unrealizedPNL=369.52, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:34:29,887 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.7799988, marketValue=-8104.6, averageCost=111.3438443, unrealizedPNL=-310.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:34:29,887 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=272.51000975, marketValue=-19075.7, averageCost=264.91100285, unrealizedPNL=-531.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:34:29,938 - INFO - AAPL - Fast SMA: 241.14, Slow SMA: 239.12, ATR: 5.04
+2025-03-05 10:34:29,964 - ERROR - Error 10168, reqId 144: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:34:31,053 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.3699951, marketValue=-16265.9, averageCost=238.25888715, unrealizedPNL=412.22, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:34:31,053 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.33000185, marketValue=-8073.1, averageCost=111.3438443, unrealizedPNL=-279.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:34:31,053 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.94000245, marketValue=-18965.8, averageCost=264.91100285, unrealizedPNL=-422.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:34:31,940 - INFO - AAPL - Current price: nan
+2025-03-05 10:34:32,065 - INFO - NVDA - Fast SMA: 125.32, Slow SMA: 132.61, ATR: 6.94
+2025-03-05 10:34:32,091 - ERROR - Error 10168, reqId 146: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 10:34:34,067 - INFO - NVDA - Current price: 115.92
+2025-03-05 10:34:34,187 - INFO - TSLA - Fast SMA: 301.89, Slow SMA: 378.17, ATR: 18.16
+2025-03-05 10:34:34,213 - ERROR - Error 10168, reqId 148: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 10:34:36,189 - INFO - TSLA - Current price: 270.31
+2025-03-05 10:34:36,189 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:39:36,197 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.2100067, marketValue=-16184.7, averageCost=238.25888715, unrealizedPNL=493.42, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:39:36,199 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=114.8199997, marketValue=-8037.4, averageCost=111.3438443, unrealizedPNL=-243.33, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:39:36,199 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.3999939, marketValue=-18928.0, averageCost=264.91100285, unrealizedPNL=-384.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:39:36,257 - INFO - AAPL - Fast SMA: 241.05, Slow SMA: 239.11, ATR: 5.08
+2025-03-05 10:39:36,282 - ERROR - Error 10168, reqId 150: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:39:38,259 - INFO - AAPL - Current price: nan
+2025-03-05 10:39:38,326 - INFO - NVDA - Fast SMA: 125.35, Slow SMA: 132.62, ATR: 6.94
+2025-03-05 10:39:38,353 - ERROR - Error 10168, reqId 152: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 10:39:40,328 - INFO - NVDA - Current price: 115.92
+2025-03-05 10:39:40,566 - INFO - TSLA - Fast SMA: 302.00, Slow SMA: 378.20, ATR: 18.16
+2025-03-05 10:39:40,607 - ERROR - Error 10168, reqId 154: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 10:39:42,569 - INFO - TSLA - Current price: 270.31
+2025-03-05 10:39:42,569 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:44:42,578 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=230.9600067, marketValue=-16167.2, averageCost=238.25888715, unrealizedPNL=510.92, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:44:42,579 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.5, marketValue=-8085.0, averageCost=111.3438443, unrealizedPNL=-290.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:44:42,579 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.48999025, marketValue=-19004.3, averageCost=264.91100285, unrealizedPNL=-460.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:44:42,581 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=230.94999695, marketValue=-16166.5, averageCost=238.25888715, unrealizedPNL=511.62, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:44:42,582 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.73000335, marketValue=-8101.1, averageCost=111.3438443, unrealizedPNL=-307.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:44:42,582 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.4700012, marketValue=-18932.9, averageCost=264.91100285, unrealizedPNL=-389.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:44:42,638 - INFO - AAPL - Fast SMA: 241.01, Slow SMA: 239.10, ATR: 5.08
+2025-03-05 10:44:42,663 - ERROR - Error 10168, reqId 156: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:44:44,640 - INFO - AAPL - Current price: nan
+2025-03-05 10:44:44,700 - INFO - NVDA - Fast SMA: 125.38, Slow SMA: 132.62, ATR: 6.94
+2025-03-05 10:44:44,726 - ERROR - Error 10168, reqId 158: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 10:44:46,701 - INFO - NVDA - Current price: 115.92
+2025-03-05 10:44:46,763 - INFO - TSLA - Fast SMA: 301.81, Slow SMA: 378.16, ATR: 18.16
+2025-03-05 10:44:46,795 - ERROR - Error 10168, reqId 160: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 10:44:48,765 - INFO - TSLA - Current price: 270.31
+2025-03-05 10:44:48,765 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:49:48,773 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.4700012, marketValue=-16202.9, averageCost=238.25888715, unrealizedPNL=475.22, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:49:48,774 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.0299988, marketValue=-8122.1, averageCost=111.3438443, unrealizedPNL=-328.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:49:48,774 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.480011, marketValue=-19003.6, averageCost=264.91100285, unrealizedPNL=-459.83, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:49:48,776 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.97999575, marketValue=-16238.6, averageCost=238.25888715, unrealizedPNL=439.52, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:49:48,776 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.8899994, marketValue=-8112.3, averageCost=111.3438443, unrealizedPNL=-318.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:49:48,776 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.7000122, marketValue=-19019.0, averageCost=264.91100285, unrealizedPNL=-475.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:49:48,834 - INFO - AAPL - Fast SMA: 241.09, Slow SMA: 239.11, ATR: 5.08
+2025-03-05 10:49:48,860 - ERROR - Error 10168, reqId 162: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:49:50,836 - INFO - AAPL - Current price: nan
+2025-03-05 10:49:50,898 - INFO - NVDA - Fast SMA: 125.38, Slow SMA: 132.62, ATR: 6.94
+2025-03-05 10:49:50,924 - ERROR - Error 10168, reqId 164: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 10:49:52,900 - INFO - NVDA - Current price: 115.92
+2025-03-05 10:49:52,963 - INFO - TSLA - Fast SMA: 301.95, Slow SMA: 378.18, ATR: 18.16
+2025-03-05 10:49:52,994 - ERROR - Error 10168, reqId 166: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 10:49:54,965 - INFO - TSLA - Current price: 270.31
+2025-03-05 10:49:54,965 - INFO - Waiting 5 minutes for next check...
+2025-03-05 10:54:54,976 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.30000305, marketValue=-16261.0, averageCost=238.25888715, unrealizedPNL=417.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:54:54,978 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.33999635, marketValue=-8143.8, averageCost=111.3438443, unrealizedPNL=-349.73, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:54:54,978 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=272.2999878, marketValue=-19061.0, averageCost=264.91100285, unrealizedPNL=-517.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 10:54:55,054 - INFO - AAPL - Fast SMA: 241.21, Slow SMA: 239.14, ATR: 5.08
+2025-03-05 10:54:55,081 - ERROR - Error 10168, reqId 168: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 10:54:57,056 - INFO - AAPL - Current price: nan
+2025-03-05 10:54:57,118 - INFO - NVDA - Fast SMA: 125.47, Slow SMA: 132.64, ATR: 6.94
+2025-03-05 10:54:57,148 - ERROR - Error 10168, reqId 170: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 10:54:59,123 - INFO - NVDA - Current price: 115.92
+2025-03-05 10:54:59,185 - INFO - TSLA - Fast SMA: 302.14, Slow SMA: 378.22, ATR: 18.16
+2025-03-05 10:54:59,213 - ERROR - Error 10168, reqId 172: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 10:55:01,186 - INFO - TSLA - Current price: 270.31
+2025-03-05 10:55:01,187 - INFO - Waiting 5 minutes for next check...
+2025-03-05 11:10:14,670 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.83000185, marketValue=-16298.1, averageCost=238.25888715, unrealizedPNL=380.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,672 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.48000335, marketValue=-8153.6, averageCost=111.3438443, unrealizedPNL=-359.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,672 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=272.58999635, marketValue=-19081.3, averageCost=264.91100285, unrealizedPNL=-537.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,674 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.80000305, marketValue=-16296.0, averageCost=238.25888715, unrealizedPNL=382.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,675 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.30000305, marketValue=-8141.0, averageCost=111.3438443, unrealizedPNL=-346.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,675 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=272.66000365, marketValue=-19086.2, averageCost=264.91100285, unrealizedPNL=-542.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:10:14,675 - ERROR - Error 1100, reqId -1: Connectivity between IBKR and Trader Workstation has been lost.
+2025-03-05 11:10:14,675 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:10:14,675 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:10:14,676 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:10:14,676 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 11:10:14,676 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-05 11:10:14,676 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-05 11:10:14,676 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-05 11:10:14,677 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.91000365, marketValue=-16303.7, averageCost=238.25888715, unrealizedPNL=374.42, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,677 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.4599991, marketValue=-8152.2, averageCost=111.3438443, unrealizedPNL=-358.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,677 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=273.60998535, marketValue=-19152.7, averageCost=264.91100285, unrealizedPNL=-608.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,678 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.5, marketValue=-16275.0, averageCost=238.25888715, unrealizedPNL=403.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,678 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.69000245, marketValue=-8098.3, averageCost=111.3438443, unrealizedPNL=-304.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,678 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.6499939, marketValue=-19015.5, averageCost=264.91100285, unrealizedPNL=-471.73, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,678 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 11:10:14,678 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 11:10:14,678 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 11:10:14,678 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 11:10:14,678 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 11:10:14,678 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 11:10:14,678 - ERROR - Error 1102, reqId -1: Connectivity between IBKR and Trader Workstation has been restored - data maintained. All data farms are connected: usfarm.nj; usfuture; cashfarm; usfarm; ushmds; secdefil.
+2025-03-05 11:10:14,679 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.22999575, marketValue=-16256.1, averageCost=238.25888715, unrealizedPNL=422.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,679 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.75457765, marketValue=-8102.82, averageCost=111.3438443, unrealizedPNL=-308.75, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,679 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=272.33999635, marketValue=-19063.8, averageCost=264.91100285, unrealizedPNL=-520.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:14,679 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:10:14,679 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 11:10:14,679 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:10:14,679 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 11:10:27,219 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:10:28,980 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:10:39,292 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 11:10:39,293 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 11:10:39,295 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:10:40,011 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:10:40,012 - INFO - Warning 165, reqId 173: Historical Market Data Service query message:HMDS server disconnect occurred.  Attempting reconnection..., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:10:52,391 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.41999815, marketValue=-16269.4, averageCost=238.25888715, unrealizedPNL=408.72, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:52,392 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.15000155, marketValue=-8130.5, averageCost=111.3438443, unrealizedPNL=-336.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:52,392 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=273.7999878, marketValue=-19166.0, averageCost=264.91100285, unrealizedPNL=-622.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:10:52,613 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 11:10:52,614 - INFO - Warning 165, reqId 173: Historical Market Data Service query message:HMDS server connection was successful., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:10:52,619 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 11:10:52,619 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 11:10:52,683 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 11:10:52,730 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 11:10:52,805 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 11:10:53,277 - INFO - AAPL - Fast SMA: 241.14, Slow SMA: 239.12, ATR: 5.08
+2025-03-05 11:10:55,279 - INFO - AAPL - Current price: nan
+2025-03-05 11:10:55,305 - ERROR - Error 10168, reqId 175: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:10:55,968 - INFO - NVDA - Fast SMA: 125.40, Slow SMA: 132.63, ATR: 6.94
+2025-03-05 11:10:56,215 - ERROR - Error 10168, reqId 177: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 11:10:57,971 - INFO - NVDA - Current price: 115.92
+2025-03-05 11:10:58,275 - INFO - TSLA - Fast SMA: 302.19, Slow SMA: 378.23, ATR: 18.16
+2025-03-05 11:10:58,302 - ERROR - Error 10168, reqId 179: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 11:11:00,278 - INFO - TSLA - Current price: 270.31
+2025-03-05 11:11:00,278 - INFO - Waiting 5 minutes for next check...
+2025-03-05 11:17:47,046 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:17:47,047 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 11:17:47,050 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=232.8800049, marketValue=-16301.6, averageCost=238.25888715, unrealizedPNL=376.52, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:17:47,050 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=116.37000275, marketValue=-8145.9, averageCost=111.3438443, unrealizedPNL=-351.83, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:17:47,050 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=273.91000365, marketValue=-19173.7, averageCost=264.91100285, unrealizedPNL=-629.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:17:47,050 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:17:47,050 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:17:47,050 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 11:17:47,051 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:17:47,051 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 11:17:47,051 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 11:17:47,051 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 11:17:47,051 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 11:17:47,051 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 11:17:47,051 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:17:47,051 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 11:17:47,051 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 11:17:47,053 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.91999815, marketValue=-16234.4, averageCost=238.25888715, unrealizedPNL=443.72, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:17:47,053 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.58000185, marketValue=-8090.6, averageCost=111.3438443, unrealizedPNL=-296.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:17:47,053 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.4700012, marketValue=-19002.9, averageCost=264.91100285, unrealizedPNL=-459.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:17:47,111 - INFO - AAPL - Fast SMA: 241.10, Slow SMA: 239.12, ATR: 5.08
+2025-03-05 11:17:47,140 - ERROR - Error 10168, reqId 181: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:17:49,113 - INFO - AAPL - Current price: nan
+2025-03-05 11:17:49,181 - INFO - NVDA - Fast SMA: 125.36, Slow SMA: 132.62, ATR: 6.94
+2025-03-05 11:17:49,207 - ERROR - Error 10168, reqId 183: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 11:17:51,183 - INFO - NVDA - Current price: 115.92
+2025-03-05 11:17:51,422 - INFO - TSLA - Fast SMA: 301.96, Slow SMA: 378.19, ATR: 18.16
+2025-03-05 11:17:51,472 - ERROR - Error 10168, reqId 185: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 11:17:53,424 - INFO - TSLA - Current price: 270.31
+2025-03-05 11:17:53,424 - INFO - Waiting 5 minutes for next check...
+2025-03-05 11:22:53,435 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.8200073, marketValue=-16227.4, averageCost=238.25888715, unrealizedPNL=450.72, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:22:53,436 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.4599991, marketValue=-8082.2, averageCost=111.3438443, unrealizedPNL=-288.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:22:53,436 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.85998535, marketValue=-18960.2, averageCost=264.91100285, unrealizedPNL=-416.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:22:53,438 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.69000245, marketValue=-16218.3, averageCost=238.25888715, unrealizedPNL=459.82, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:22:53,439 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.76000215, marketValue=-8103.2, averageCost=111.3438443, unrealizedPNL=-309.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:22:53,439 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=271.75, marketValue=-19022.5, averageCost=264.91100285, unrealizedPNL=-478.73, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:22:53,581 - INFO - AAPL - Fast SMA: 241.07, Slow SMA: 239.11, ATR: 5.08
+2025-03-05 11:22:53,607 - ERROR - Error 10168, reqId 187: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:22:55,583 - INFO - AAPL - Current price: nan
+2025-03-05 11:22:55,706 - INFO - NVDA - Fast SMA: 125.36, Slow SMA: 132.62, ATR: 6.94
+2025-03-05 11:22:55,735 - ERROR - Error 10168, reqId 189: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 11:22:57,707 - INFO - NVDA - Current price: 115.92
+2025-03-05 11:22:57,801 - INFO - TSLA - Fast SMA: 301.98, Slow SMA: 378.19, ATR: 18.16
+2025-03-05 11:22:57,828 - ERROR - Error 10168, reqId 191: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 11:22:59,802 - INFO - TSLA - Current price: 270.31
+2025-03-05 11:22:59,802 - INFO - Waiting 5 minutes for next check...
+2025-03-05 11:30:38,476 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.3500061, marketValue=-16194.5, averageCost=238.25888715, unrealizedPNL=483.62, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:30:38,477 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.26000215, marketValue=-8068.2, averageCost=111.3438443, unrealizedPNL=-274.13, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:30:38,478 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.54000855, marketValue=-18937.8, averageCost=264.91100285, unrealizedPNL=-394.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:30:38,478 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 11:30:38,478 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 11:30:38,478 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 11:30:38,478 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 11:30:38,478 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:30:38,478 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:30:38,478 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 11:30:38,478 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 11:30:38,478 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 11:30:38,478 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 11:30:38,478 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:30:38,478 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:30:38,478 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 11:30:38,478 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 11:30:38,480 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.1300049, marketValue=-16179.1, averageCost=238.25888715, unrealizedPNL=499.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:30:38,480 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.0, marketValue=-8050.0, averageCost=111.3438443, unrealizedPNL=-255.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:30:38,480 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=269.4500122, marketValue=-18861.5, averageCost=264.91100285, unrealizedPNL=-317.73, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:30:38,538 - INFO - AAPL - Fast SMA: 241.02, Slow SMA: 239.10, ATR: 5.08
+2025-03-05 11:30:38,565 - ERROR - Error 10168, reqId 193: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:30:40,540 - INFO - AAPL - Current price: nan
+2025-03-05 11:30:40,605 - INFO - NVDA - Fast SMA: 125.30, Slow SMA: 132.61, ATR: 6.94
+2025-03-05 11:30:40,634 - ERROR - Error 10168, reqId 195: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 11:30:42,608 - INFO - NVDA - Current price: 115.92
+2025-03-05 11:30:42,675 - INFO - TSLA - Fast SMA: 301.87, Slow SMA: 378.17, ATR: 18.16
+2025-03-05 11:30:42,703 - ERROR - Error 10168, reqId 197: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 11:30:44,677 - INFO - TSLA - Current price: 270.31
+2025-03-05 11:30:44,677 - INFO - Waiting 5 minutes for next check...
+2025-03-05 11:39:44,033 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.1300049, marketValue=-16179.1, averageCost=238.25888715, unrealizedPNL=499.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,034 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.12000275, marketValue=-8058.4, averageCost=111.3438443, unrealizedPNL=-264.33, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,034 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=269.79000855, marketValue=-18885.3, averageCost=264.91100285, unrealizedPNL=-341.53, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,034 - ERROR - Error 1100, reqId -1: Connectivity between IBKR and Trader Workstation has been lost.
+2025-03-05 11:39:44,034 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfuture
+2025-03-05 11:39:44,034 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:cashfarm
+2025-03-05 11:39:44,035 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj
+2025-03-05 11:39:44,035 - INFO - Warning 2103, reqId -1: Market data farm connection is broken:usfarm
+2025-03-05 11:39:44,035 - INFO - Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefil
+2025-03-05 11:39:44,035 - INFO - Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds
+2025-03-05 11:39:44,035 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-05 11:39:44,035 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-05 11:39:44,035 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-05 11:39:44,036 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=231.08999635, marketValue=-16176.3, averageCost=238.25888715, unrealizedPNL=501.82, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,037 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=114.8899994, marketValue=-8042.3, averageCost=111.3438443, unrealizedPNL=-248.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,037 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.23999025, marketValue=-18916.8, averageCost=264.91100285, unrealizedPNL=-373.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,037 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 11:39:44,037 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 11:39:44,037 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 11:39:44,037 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 11:39:44,037 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 11:39:44,037 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 11:39:44,037 - ERROR - Error 1102, reqId -1: Connectivity between IBKR and Trader Workstation has been restored - data maintained. All data farms are connected: usfarm.nj; usfuture; cashfarm; usfarm; ushmds; secdefil.
+2025-03-05 11:39:44,037 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=230.83000185, marketValue=-16158.1, averageCost=238.25888715, unrealizedPNL=520.02, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,038 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.0299988, marketValue=-8052.1, averageCost=111.3438443, unrealizedPNL=-258.03, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,038 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.0499878, marketValue=-18903.5, averageCost=264.91100285, unrealizedPNL=-359.73, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:39:44,175 - INFO - AAPL - Fast SMA: 240.99, Slow SMA: 239.09, ATR: 5.08
+2025-03-05 11:39:44,201 - ERROR - Error 10168, reqId 200: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:39:46,176 - INFO - AAPL - Current price: nan
+2025-03-05 11:39:46,294 - INFO - NVDA - Fast SMA: 125.30, Slow SMA: 132.61, ATR: 6.95
+2025-03-05 11:39:46,321 - ERROR - Error 10168, reqId 202: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 11:39:48,296 - INFO - NVDA - Current price: 115.92
+2025-03-05 11:39:48,395 - INFO - TSLA - Fast SMA: 301.84, Slow SMA: 378.16, ATR: 18.16
+2025-03-05 11:39:48,422 - ERROR - Error 10168, reqId 204: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 11:39:50,397 - INFO - TSLA - Current price: 270.31
+2025-03-05 11:39:50,397 - INFO - Waiting 5 minutes for next check...
+2025-03-05 11:44:50,407 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=230.80000305, marketValue=-16156.0, averageCost=238.25888715, unrealizedPNL=522.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:44:50,409 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=115.16999815, marketValue=-8061.9, averageCost=111.3438443, unrealizedPNL=-267.83, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:44:50,409 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=270.3999939, marketValue=-18928.0, averageCost=264.91100285, unrealizedPNL=-384.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:44:50,412 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=230.2599945, marketValue=-16118.2, averageCost=238.25888715, unrealizedPNL=559.92, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:44:50,412 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=114.94999695, marketValue=-8046.5, averageCost=111.3438443, unrealizedPNL=-252.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:44:50,412 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=269.35998535, marketValue=-18855.2, averageCost=264.91100285, unrealizedPNL=-311.43, realizedPNL=0.0, account='DUH945756')
+2025-03-05 11:44:50,465 - INFO - AAPL - Fast SMA: 240.94, Slow SMA: 239.08, ATR: 5.11
+2025-03-05 11:44:50,491 - ERROR - Error 10168, reqId 206: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 11:44:52,468 - INFO - AAPL - Current price: nan
+2025-03-05 11:44:52,530 - INFO - NVDA - Fast SMA: 125.33, Slow SMA: 132.61, ATR: 6.95
+2025-03-05 11:44:52,556 - ERROR - Error 10168, reqId 208: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 11:44:54,532 - INFO - NVDA - Current price: 115.92
+2025-03-05 11:44:54,592 - INFO - TSLA - Fast SMA: 301.83, Slow SMA: 378.16, ATR: 18.16
+2025-03-05 11:44:54,620 - ERROR - Error 10168, reqId 210: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 11:44:56,595 - INFO - TSLA - Current price: 270.31
+2025-03-05 11:44:56,596 - INFO - Waiting 5 minutes for next check...
+2025-03-05 14:54:24,917 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-05 14:54:24,918 - INFO - Connected
+2025-03-05 14:54:24,925 - INFO - Logged on to server version 176
+2025-03-05 14:54:24,928 - INFO - API connection ready
+2025-03-05 14:54:24,928 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 14:54:24,929 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 14:54:24,929 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 14:54:24,929 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 14:54:24,929 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 14:54:24,929 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 14:54:24,931 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-05 14:54:24,931 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-05 14:54:24,931 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-05 14:54:25,130 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=235.6000061, marketValue=-16492.0, averageCost=238.25888715, unrealizedPNL=186.12, realizedPNL=0.0, account='DUH945756')
+2025-03-05 14:54:25,130 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=117.2099991, marketValue=-8204.7, averageCost=111.3438443, unrealizedPNL=-410.63, realizedPNL=0.0, account='DUH945756')
+2025-03-05 14:54:25,130 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=276.2999878, marketValue=-19341.0, averageCost=264.91100285, unrealizedPNL=-797.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 14:54:25,230 - INFO - Synchronization complete
+2025-03-05 14:54:25,342 - INFO - AAPL - Fast SMA: 241.45, Slow SMA: 239.19, ATR: 5.22
+2025-03-05 14:54:25,406 - ERROR - Error 10168, reqId 102: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-05 14:54:27,344 - INFO - AAPL - Current price: nan
+2025-03-05 14:54:27,459 - INFO - NVDA - Fast SMA: 125.50, Slow SMA: 132.65, ATR: 6.96
+2025-03-05 14:54:27,513 - ERROR - Error 10168, reqId 104: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-05 14:54:29,461 - INFO - NVDA - Current price: nan
+2025-03-05 14:54:29,591 - INFO - TSLA - Fast SMA: 302.44, Slow SMA: 378.28, ATR: 18.23
+2025-03-05 14:54:29,643 - ERROR - Error 10168, reqId 106: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-05 14:54:31,593 - INFO - TSLA - Current price: nan
+2025-03-05 14:54:31,593 - INFO - Waiting 5 minutes for next check...
+2025-03-05 14:55:25,583 - INFO - Trading session terminated by user.
+2025-03-05 14:55:25,584 - INFO - Disconnecting from 127.0.0.1:7497, 507 B sent in 14 messages, 29.4 kB received in 404 messages, session time 60.7 s.
+2025-03-05 14:55:25,584 - INFO - Disconnecting
+2025-03-05 14:55:25,584 - INFO - Disconnected from IB.
+2025-03-05 14:55:26,374 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-05 14:55:26,375 - INFO - Connected
+2025-03-05 14:55:26,395 - INFO - Logged on to server version 176
+2025-03-05 14:55:26,398 - INFO - API connection ready
+2025-03-05 14:55:26,399 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-05 14:55:26,399 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-03-05 14:55:26,399 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-03-05 14:55:26,399 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-05 14:55:26,399 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-05 14:55:26,399 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-05 14:55:26,400 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-05 14:55:26,400 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-05 14:55:26,401 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-05 14:55:26,703 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=235.77000425, marketValue=-16503.9, averageCost=238.25888715, unrealizedPNL=174.22, realizedPNL=0.0, account='DUH945756')
+2025-03-05 14:55:26,703 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=117.08999635, marketValue=-8196.3, averageCost=111.3438443, unrealizedPNL=-402.23, realizedPNL=0.0, account='DUH945756')
+2025-03-05 14:55:26,703 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=276.30999755, marketValue=-19341.7, averageCost=264.91100285, unrealizedPNL=-797.93, realizedPNL=0.0, account='DUH945756')
+2025-03-05 14:55:26,804 - INFO - Synchronization complete
+2025-03-05 14:55:26,894 - INFO - AAPL - Fast SMA: 241.47, Slow SMA: 239.19, ATR: 5.22
+2025-03-05 14:55:28,895 - INFO - AAPL - Current price: 235.94
+2025-03-05 14:55:29,059 - INFO - NVDA - Fast SMA: 125.50, Slow SMA: 132.65, ATR: 6.96
+2025-03-05 14:55:31,060 - INFO - NVDA - Current price: 117.60
+2025-03-05 14:55:31,179 - INFO - TSLA - Fast SMA: 302.43, Slow SMA: 378.28, ATR: 18.23
+2025-03-05 14:55:33,180 - INFO - TSLA - Current price: 277.07
+2025-03-05 14:55:33,180 - INFO - Waiting 5 minutes for next check...
+2025-03-05 14:55:37,841 - INFO - Trading session terminated by user.
+2025-03-05 14:55:37,841 - INFO - Disconnecting from 127.0.0.1:7497, 507 B sent in 14 messages, 32.3 kB received in 535 messages, session time 11.5 s.
+2025-03-05 14:55:37,841 - INFO - Disconnecting
+2025-03-05 14:55:37,841 - INFO - Disconnected from IB.
+2025-03-06 15:29:13,239 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-06 15:29:13,239 - INFO - Disconnecting
+2025-03-06 15:29:13,239 - ERROR - API connection failed: ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 7497)")
+2025-03-06 15:29:13,239 - ERROR - Make sure API port on TWS/IBG is open
