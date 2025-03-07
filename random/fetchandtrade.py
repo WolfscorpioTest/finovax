@@ -1,33 +1,63 @@
-from backtrader_ib import ibstore
+# fetch_and_trade.py
+import pandas as pd
+import backtrader as bt
+from ib_insync import *
 
-cerebro = bt.Cerebro()
+# ---- Setup IB connection ----
+ib = IB()
+ib.connect('127.0.0.1', 7497, clientId=1)  # Make sure IB Gateway or TWS is running
 
-# Set up IB store
-store = ibstore.IBStore(host='127.0.0.1', port=7497, clientId=1)  # paper trading port is 7497
-cerebro.broker = store.getbroker()
+# ---- Fetch historical data from IB ----
+contract = Stock('AAPL', 'SMART', 'USD')
 
-# Example data feed (daily data for AAPL)
-data = store.getdata(dataname='AAPL', timeframe=bt.TimeFrame.Days, compression=1)
+bars = ib.reqHistoricalData(
+    contract,
+    endDateTime='',
+    durationStr='1 Y',
+    barSizeSetting='1 day',
+    whatToShow='ADJUSTED_LAST',
+    useRTH=True,
+    formatDate=1
+)
 
-cerebro.adddata(data)
+# Convert to DataFrame for easier handling
+df = pd.DataFrame(bars)
+df['datetime'] = pd.to_datetime(df['date'])
+df.set_index('datetime', inplace=True)
+df.drop(columns=['date'], inplace=True)
 
+# ---- Define Backtrader Strategy ----
 class MyStrategy(bt.Strategy):
     def __init__(self):
-        self.sma_short = bt.indicators.SMA(self.data.close, period=10)
-        self.sma_long = bt.indicators.SMA(self.data.close, period=50)
+        self.sma = bt.indicators.SimpleMovingAverage(self.data.close, period=20)
 
     def next(self):
-        if self.sma_short[0] > self.sma_long[0] and not self.position:
-            self.buy()
-        elif self.sma_short[0] < self.sma_long[0] and self.position:
-            self.sell()
-data = store.getdata(dataname='AAPL', timeframe=bt.TimeFrame.Days, compression=1)
+        if self.data.close[0] > self.sma[0]:
+            self.buy(size=10)
+        elif self.data.close[0] < self.sma[0]:
+            self.sell(size=10)
+
+    def log(self, txt):
+        dt = self.datas[0].datetime.datetime(0)
+        print(f'{dt}: {txt}')
+
+    def notify_order(self, order):
+        if order.status in [order.Completed]:
+            action = 'BUY' if order.isbuy() else 'SELL'
+            self.log(f'{action} EXECUTED at {order.executed.price}')
+
+# ---- Feed DataFrame into Backtrader ----
+class PandasData(bt.feeds.PandasData):
+    # PandasData automatically maps open, high, low, close, volume, and openinterest
+    pass
+
+# ---- Run Backtrader ----
+cerebro = bt.Cerebro()
+data = PandasData(dataname=df)
 cerebro.adddata(data)
-def notify_order(self, order):
-    if order.status in [order.Completed]:
-        if order.isbuy():
-            print(f'BUY EXECUTED: {order.executed.price}')
-        elif order.issell():
-            print(f'SELL EXECUTED: {order.executed.price}')
-    elif order.status in [order.Canceled, order.Margin, order.Rejected]:
-        print(f'Order Canceled/Margin/Rejected')
+cerebro.addstrategy(MyStrategy)
+
+cerebro.run()
+
+# ---- Optional: Plot the result ----
+cerebro.plot()
