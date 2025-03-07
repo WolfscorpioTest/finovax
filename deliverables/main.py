@@ -23,8 +23,8 @@ stocks = ['AAPL', 'NVDA', 'TSLA']
 contracts = [Stock(symbol, 'SMART', 'USD') for symbol in stocks]
 
 # Parameters
-fast_sma_period = 10
-slow_sma_period = 50
+fast_sma_period = 50
+slow_sma_period = 200
 atr_period = 14
 position_size = 10
 stop_loss_pct = 0.03  # 3% stop loss

@@ -646,3 +646,61 @@
 2025-03-06 15:29:13,239 - INFO - Disconnecting
 2025-03-06 15:29:13,239 - ERROR - API connection failed: ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 7497)")
 2025-03-06 15:29:13,239 - ERROR - Make sure API port on TWS/IBG is open
+2025-03-07 14:14:46,745 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-07 14:14:46,747 - INFO - Connected
+2025-03-07 14:14:46,788 - INFO - Logged on to server version 176
+2025-03-07 14:14:46,794 - INFO - API connection ready
+2025-03-07 14:14:46,797 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-07 14:14:46,797 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-07 14:14:46,798 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-07 14:14:46,798 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-07 14:14:46,798 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-07 14:14:46,798 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-07 14:14:46,798 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-07 14:14:47,108 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=239.4900055, marketValue=-16764.3, averageCost=238.25888715, unrealizedPNL=-86.18, realizedPNL=0.0, account='DUH945756')
+2025-03-07 14:14:47,108 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=111.25, marketValue=-7787.5, averageCost=111.3438443, unrealizedPNL=6.57, realizedPNL=0.0, account='DUH945756')
+2025-03-07 14:14:47,109 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=263.3999939, marketValue=-18438.0, averageCost=264.91100285, unrealizedPNL=105.77, realizedPNL=0.0, account='DUH945756')
+2025-03-07 14:14:47,203 - INFO - Synchronization complete
+2025-03-07 14:14:47,467 - INFO - AAPL - Fast SMA: 238.61, Slow SMA: 226.65, ATR: 5.22
+2025-03-07 14:14:47,573 - ERROR - Error 10089, reqId 4: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Delayed market data is available.AAPL NASDAQ.NMS/TOP/ALL, contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-07 14:14:49,470 - INFO - AAPL - Current price: nan
+2025-03-07 14:14:49,677 - INFO - NVDA - Fast SMA: 131.78, Slow SMA: 127.25, ATR: 7.11
+2025-03-07 14:14:49,813 - ERROR - Error 10089, reqId 6: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Delayed market data is available.NVDA NASDAQ.NMS/TOP/ALL, contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-07 14:14:51,679 - INFO - NVDA - Current price: nan
+2025-03-07 14:14:51,832 - INFO - TSLA - Fast SMA: 371.73, Slow SMA: 281.20, ATR: 18.10
+2025-03-07 14:14:52,066 - ERROR - Error 10089, reqId 8: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Delayed market data is available.TSLA NASDAQ.NMS/TOP/ALL, contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-07 14:14:53,836 - INFO - TSLA - Current price: nan
+2025-03-07 14:14:53,837 - INFO - Waiting 5 minutes for next check...
+2025-03-07 14:15:03,322 - INFO - Trading session terminated by user.
+2025-03-07 14:15:03,323 - INFO - Disconnecting from 127.0.0.1:7497, 495 B sent in 14 messages, 60.6 kB received in 402 messages, session time 16.6 s.
+2025-03-07 14:15:03,323 - INFO - Disconnecting
+2025-03-07 14:15:03,324 - INFO - Disconnected from IB.
+2025-03-07 14:15:59,298 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-03-07 14:15:59,298 - INFO - Connected
+2025-03-07 14:15:59,306 - INFO - Logged on to server version 176
+2025-03-07 14:15:59,307 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-03-07 14:15:59,307 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-03-07 14:15:59,307 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-03-07 14:15:59,307 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-03-07 14:15:59,307 - INFO - API connection ready
+2025-03-07 14:15:59,308 - INFO - position: Position(account='DUH945756', contract=Stock(conId=76792991, symbol='TSLA', exchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, avgCost=264.91100285)
+2025-03-07 14:15:59,308 - INFO - position: Position(account='DUH945756', contract=Stock(conId=265598, symbol='AAPL', exchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, avgCost=238.25888715)
+2025-03-07 14:15:59,309 - INFO - position: Position(account='DUH945756', contract=Stock(conId=4815747, symbol='NVDA', exchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, avgCost=111.3438443)
+2025-03-07 14:15:59,611 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=265598, symbol='AAPL', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='AAPL', tradingClass='NMS'), position=-70.0, marketPrice=239.4900055, marketValue=-16764.3, averageCost=238.25888715, unrealizedPNL=-86.18, realizedPNL=0.0, account='DUH945756')
+2025-03-07 14:15:59,612 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=4815747, symbol='NVDA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='NVDA', tradingClass='NMS'), position=-70.0, marketPrice=111.25, marketValue=-7787.5, averageCost=111.3438443, unrealizedPNL=6.57, realizedPNL=0.0, account='DUH945756')
+2025-03-07 14:15:59,612 - INFO - updatePortfolio: PortfolioItem(contract=Stock(conId=76792991, symbol='TSLA', right='0', primaryExchange='NASDAQ', currency='USD', localSymbol='TSLA', tradingClass='NMS'), position=-70.0, marketPrice=263.3999939, marketValue=-18438.0, averageCost=264.91100285, unrealizedPNL=105.77, realizedPNL=0.0, account='DUH945756')
+2025-03-07 14:15:59,713 - INFO - Synchronization complete
+2025-03-07 14:15:59,872 - INFO - AAPL - Fast SMA: 238.61, Slow SMA: 226.65, ATR: 5.22
+2025-03-07 14:16:00,174 - ERROR - Error 10089, reqId 4: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Delayed market data is available.AAPL NASDAQ.NMS/TOP/ALL, contract: Stock(symbol='AAPL', exchange='SMART', currency='USD')
+2025-03-07 14:16:01,874 - INFO - AAPL - Current price: nan
+2025-03-07 14:16:02,348 - INFO - NVDA - Fast SMA: 131.78, Slow SMA: 127.25, ATR: 7.11
+2025-03-07 14:16:02,379 - ERROR - Error 10168, reqId 6: Requested market data is not subscribed. Delayed market data is not enabled., contract: Stock(symbol='NVDA', exchange='SMART', currency='USD')
+2025-03-07 14:16:04,350 - INFO - NVDA - Current price: nan
+2025-03-07 14:16:04,481 - INFO - TSLA - Fast SMA: 371.73, Slow SMA: 281.20, ATR: 18.10
+2025-03-07 14:16:04,673 - ERROR - Error 10089, reqId 8: Requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.Delayed market data is available.TSLA NASDAQ.NMS/TOP/ALL, contract: Stock(symbol='TSLA', exchange='SMART', currency='USD')
+2025-03-07 14:16:06,483 - INFO - TSLA - Current price: nan
+2025-03-07 14:16:06,484 - INFO - Waiting 5 minutes for next check...
+2025-03-07 14:16:08,786 - INFO - Trading session terminated by user.
+2025-03-07 14:16:08,787 - INFO - Disconnecting from 127.0.0.1:7497, 495 B sent in 14 messages, 60.5 kB received in 402 messages, session time 9.49 s.
+2025-03-07 14:16:08,787 - INFO - Disconnecting
+2025-03-07 14:16:08,787 - INFO - Disconnected from IB.
